@@ -59,8 +59,10 @@
       - Transfer acceleration - fast easy secure transfers over long distances to end users. Uses edge locations
       - Cross region replication pricing
     - Read the S3 FAQs
-&nbsp;  
-&nbsp;  
+
+
+
+
 **S3 Security and Encryption**
   - Buckets are private by default. Access control to buckets can be setup using bucket policies and ACLs
   - S3 buckets can be configured to create access logs which log all requests. Can be sent to another bucket or another account’s bucket
@@ -70,8 +72,10 @@
 	  - AWS Key Management Service, Managed Keys (SSE-KMS)
 	  - Server Side Encryption with Customer Provided Keys (SSE-C)
   - Client
-&nbsp;  
-&nbsp;  
+
+
+
+
 **S3 Version Control**
  - Stores all versions of an object (including all writes and even if you delete an object)
  - Great backup tool
