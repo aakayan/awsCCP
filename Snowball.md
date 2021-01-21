@@ -1,4 +1,4 @@
-# **Snowball 
+# Snowball 
 Just need to know what it is, and that you can use it to import/export to S3**
   - Petabyte-scale data transport solution to transport large amounts of data into and out of AWS
   - Addresses common challenges with large scale data transfers - high network costs, long transfer times, security concerns
