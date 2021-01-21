@@ -1,0 +1,30 @@
+# Storage Gateway
+  - Service that connects on premise software appliance with cloud based storage
+  - Software appliance is available to download as VM image
+  - Can also get a physical device for this
+  - Can use AWS management console to create gateway option you want
+  - 3 different types of storage
+	  - File gateway - NFS & SMP
+		  - Files are stored as objects in S3 buckets
+		  - Accessed through network file system
+		  - Ownership, permission, timestamps durably stored in S3
+		  - Once transferred to S3, they can be managed as native S3 objects, so bucket policies can apply to them
+	  - Volume Gateway - iSCSI
+		  - Presents your app with disk volumes using iSCSI block protocol
+		  - Data written to these volumes can be backed up as point in time snapshots of your volume, and stored as EBS snapshot
+		  - Snapshots are incremental backups that only capture changed blocks. Snapshot storage is compressed
+		  - Stored Volumes - Volume gateway
+			  - Let you store your primary data locally
+			  - The entire dataset
+		  - Cached Volumes
+			  - Retains most frequently accessed data locally in storage gateway
+			  - Caches the most actively used data
+	  - Tape Gateway - VTL
+		  - Durable cost effective solution to archive data into AWS
+		  - Get rid of tapes
+  - Summary
+	  - File gateway - for flat files, stored directly on S3
+	  - Volume gateway
+	  - Stored volumes - entire dataset stored on site and backed up to S3
+	  - Cached volumes - entire dataset stored on S3, most frequently accessed data is cached on site
+	  - Gateway virtual tape library
