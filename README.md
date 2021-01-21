@@ -1,9 +1,9 @@
 #S3 Basics#
-Simple secure storage
-Safe place to store files
-Object based storage
-Data is spread across multiple devices/facilities
-Files can be 0-5 terabytes
+- Simple secure storage
+- Safe place to store files
+- Object based storage
+- Data is spread across multiple devices/facilities
+- Files can be 0-5 terabytes
 Unlimited storage
 Files stored in buckets
 S3 is a universal namespace - name must be unique globally
