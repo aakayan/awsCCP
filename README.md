@@ -60,6 +60,7 @@
       - Cross region replication pricing
     - Read the S3 FAQs
 &nbsp;  
+&nbsp;  
 
 **S3 Security and Encryption**
   - Buckets are private by default. Access control to buckets can be setup using bucket policies and ACLs
@@ -70,9 +71,8 @@
 	  - AWS Key Management Service, Managed Keys (SSE-KMS)
 	  - Server Side Encryption with Customer Provided Keys (SSE-C)
   - Client
-
-
-
+&nbsp;  
+&nbsp;  
 
 **S3 Version Control**
  - Stores all versions of an object (including all writes and even if you delete an object)
